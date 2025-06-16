@@ -19,7 +19,7 @@
 
 
 - ## Frequently Asked Questions
-    - [Todo](#todo)
+    - [FAQ](/docs/faq)
 
 
 - ## Developers
