@@ -10,7 +10,44 @@ sidebar: false
 
 # Zaimea Docs
 
+<div class="grid grid-cols-2 gap-1">
+
+<div class="my-auto">
 Welcome to the documentation page of everything related to zaimea.com.
+</div>
+
+<div class="grid grid-cols-4 gap-1 items-center">
+<div>
+
+```blade +render
+<x-heroicons::outline.key class="w-16 h-16 text-zinc-600" />
+
+```
+
+</div>
+<div>
+
+```blade +render
+<x-heroicons::outline.lock-open class="w-16 h-16 text-zinc-600" />
+```
+
+</div>
+<div>
+
+```blade +render
+<x-heroicons::solid.chat-bubble-left-right class="w-28 h-28 text-teal-600" />
+```
+
+</div>
+<div>
+
+```blade +render
+<x-heroicons::outline.building-office-2 class="w-56 h-56 text-orange-600" />
+```
+
+</div>
+</div>
+</div>
 
 <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
 
@@ -57,4 +94,3 @@ Welcome to the documentation page of everything related to zaimea.com.
 
 </div>
 </div>
-
