@@ -1,9 +1,10 @@
 ---
 title: Zaimea Docs
 description: Welcome to the documentation page of everything related to zaimea.com
-github: false
+github: ''
 onThisArticle: false
 sidebar: false
+rightbar: false
 ---
 
 <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
