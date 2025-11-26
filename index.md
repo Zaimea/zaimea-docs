@@ -1,96 +1,37 @@
 ---
-title: Zaimea Docs
-description: Welcome to the documentation page of everything related to zaimea.com
-github: ''
-onThisArticle: false
+title: Zaimea Documentation
+description: Official documentation hub for Zaimea packages, products and developer resources.
 sidebar: false
 rightbar: false
+onThisArticle: false
 ---
 
-<div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
-# Zaimea Docs
-
-<div class="grid grid-cols-2 gap-1">
-
-<div class="my-auto">
-Welcome to the documentation page of everything related to zaimea.com.
-</div>
-
-<div class="grid grid-cols-4 gap-1 items-center">
-<div>
-
+<!-- Hero -->
 :::blade
-<x-heroicons::outline.key class="w-16 h-16 text-zinc-600" />
+<x-docs.hero />
 :::endblade
 
-</div>
-<div>
-
+<!-- FEATURES -->
 :::blade
-<x-heroicons::outline.lock-open class="w-16 h-16 text-zinc-600" />
+<x-docs.features />
 :::endblade
 
+<!-- PACKAGES -->
+<div class="flex items-center justify-between mb-6">
+<h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">Packages & ecosystem</h2>
 </div>
-<div>
 
 :::blade
-<x-heroicons::solid.chat-bubble-left-right class="w-28 h-28 text-teal-600" />
+<x-docs.package-cards />
 :::endblade
 
-</div>
-<div>
+<!-- LINKS -->
 
 :::blade
-<x-heroicons::outline.building-office-2 class="w-56 h-56 text-orange-600" />
+<x-docs.links />
 :::endblade
 
-</div>
-</div>
-</div>
-
-<div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
-
-<div>
-
-- ## LEGAL
-    - [Privacy Policy](/docs/site-policy/main/zaimea-privacy-policies/policy)
-    - [Terms](/docs/site-policy/main/zaimea-tos/terms)
-
-</div>
-<div>
-        
-- ## Products
-    - [Groups](/docs/groups)
-
-</div>
-<div>
-
-- ## Packages
-    - [Aggregate](/docs/aggregate)
-    - [Charts](/docs/charts)
-    - [Helpers](/docs/helpers)
-    - [Heroicons](/docs/heroicons)
-    - [Metrics](/docs/metrics)
-    - [PDF](/docs/pdf)
-    - [Ranks](/docs/ranks)
-    - [Searches](/docs/searches)
-    - [Sluggable](/docs/sluggable)
-
-</div>
-
-<div>
-
-- ## Frequently Asked Questions
-    - [FAQ](/docs/faq)
-
-</div>
-<div>
-
-- ## Developers
-    - [Website](developers.zaimea.com)
-
-</div>
-
-</div>
+<p class="text-center text-xs text-zinc-500 dark:text-zinc-400">Docs are continuously updated. Missing something? Open an issue on GitHub.</p>
 </div>
