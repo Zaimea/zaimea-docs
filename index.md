@@ -27,11 +27,5 @@ onThisArticle: false
 <x-docs.package-cards />
 :::endblade
 
-<!-- LINKS -->
-
-:::blade
-<x-docs.links />
-:::endblade
-
 <p class="text-center text-xs text-zinc-500 dark:text-zinc-400">Docs are continuously updated. Missing something? Open an issue on GitHub.</p>
 </div>
